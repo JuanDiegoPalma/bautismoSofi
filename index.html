@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Una invitación especial para celebrar el bautismo de Sofi."
+    />
+    <title>Bautismo de Sofi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="invitation-page">
+      <section class="scroll-scene" aria-label="Invitación de bautismo">
+        <div class="backdrop backdrop--one" aria-hidden="true"></div>
+        <div class="backdrop backdrop--two" aria-hidden="true"></div>
+        <div class="scene" id="invitation-scene">
+          <article class="invitation-card" aria-labelledby="invitation-title">
+            <div class="card-content">
+              <p class="eyebrow">Con mucha alegría te invitamos a celebrar</p>
+              <span class="ornament" aria-hidden="true">✳</span>
+              <h1 id="invitation-title">
+                <span>El bautismo</span>
+                <span><em>de</em> Sofi</span>
+              </h1>
+              <p class="intro">
+                Señor, que mi vida sea una llama, una pequeña luz que brille allí donde yo vaya.
+              </p>
+
+              <div class="divider" aria-hidden="true">
+                <span></span>
+                <span class="divider-flower"></span>
+                <span></span>
+              </div>
+
+              <section class="countdown" aria-labelledby="countdown-title">
+                <h2 id="countdown-title">Falta para el gran día</h2>
+                <div
+                  class="countdown-units"
+                  id="countdown"
+                  role="timer"
+                  aria-label="Cuenta regresiva para el bautismo"
+                  data-date="2026-12-05T12:00:00-03:00"
+                >
+                  <div><span data-unit="days">--</span><small>días</small></div>
+                  <div><span data-unit="hours">--</span><small>horas</small></div>
+                  <div><span data-unit="minutes">--</span><small>minutos</small></div>
+                  <div><span data-unit="seconds">--</span><small>segundos</small></div>
+                </div>
+              </section>
+
+              <div class="divider divider--details" aria-hidden="true">
+                <span></span>
+                <span class="divider-flower">🕊️</span>
+                <span></span>
+              </div>
+
+              <dl class="event-details">
+                <div>
+                  <dt>Día y hora</dt>
+                  <dd>Sábado, 5 de diciembre · 12:00</dd>
+                </div>
+                <div>
+                  <dt>Dónde</dt>
+                  <dd>Iglesia Catedral de San Juan Bautista</dd>
+                  <dd>Calle Mendoza 204 Sur</dd>
+                </div>
+              </dl>
+
+              <p class="closing">¡Te esperamos!</p>
+              <p class="signature">Con cariño, la familia de Sofi</p>
+
+              <div class="divider divider--rsvp" aria-hidden="true">
+                <span></span>
+                <span class="divider-flower">✳</span>
+                <span></span>
+              </div>
+
+              <section class="rsvp" aria-labelledby="rsvp-title">
+                <h2 id="rsvp-title">Confirmar asistencia</h2>
+                <p class="rsvp-text">Cuéntanos si nos acompañas en este día tan especial.</p>
+                <a
+                  class="rsvp-button"
+                  id="rsvp-button"
+                  href="https://wa.me/34622308219?text=%C2%A1Hola%21%20Confirmo%20mi%20asistencia%20al%20bautismo%20de%20Sofi%20el%20s%C3%A1bado%205%20de%20diciembre%20a%20las%2012%3A00%20hs.%0A%0AMi%20nombre%20es%3A%20%0ACantidad%20de%20personas%3A%20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Confirmar asistencia por WhatsApp (se abre en una nueva pestaña)"
+                >
+                  <svg class="rsvp-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                    <path
+                      fill="currentColor"
+                      d="M12.04 2a9.93 9.93 0 0 0-8.5 15.07L2 22l5.07-1.5A9.94 9.94 0 1 0 12.04 2Zm0 18.1a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.01.89.9-2.93-.2-.31a8.1 8.1 0 1 1 6.74 3.66Zm4.45-6.06c-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06a6.6 6.6 0 0 1-1.95-1.2 7.3 7.3 0 0 1-1.35-1.68c-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.8-.2-.47-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.5.58.18 1.1.16 1.51.1.46-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"
+                    />
+                  </svg>
+                  <span>Confirmar por WhatsApp</span>
+                </a>
+              </section>
+            </div>
+          </article>
+
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-back"></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-front"></div>
+            <div class="envelope-seal">S</div>
+          </div>
+
+          <p class="scroll-hint" id="scroll-hint">
+            Desliza para abrir la invitación <span aria-hidden="true">↓</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
